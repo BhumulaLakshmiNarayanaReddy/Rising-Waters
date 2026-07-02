@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>No Flood Risk</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="result-page success-page">
+
+    <div class="result-card">
+
+        <div class="result-icon">
+
+            ✅
+
+        </div>
+
+        <h1 class="success-heading">
+
+            No Flood Risk Detected
+
+        </h1>
+
+        <p>
+
+            The AI prediction model has analyzed the
+            weather and rainfall parameters you provided.
+
+        </p>
+
+        <div class="status success-status">
+
+            SAFE CONDITIONS
+
+        </div>
+
+        <p>
+
+            Based on the supplied environmental data,
+            the model predicts that there is currently
+            <strong>no significant flood risk</strong>.
+
+            Continue monitoring local weather updates
+            during heavy rainfall seasons.
+
+        </p>
+
+        <div class="button-group">
+
+            <a href="/predict">
+
+                <button class="btn">
+
+                    🔄 Predict Again
+
+                </button>
+
+            </a>
+
+            <a href="/">
+
+                <button class="btn secondary-btn">
+
+                    🏠 Home
+
+                </button>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>

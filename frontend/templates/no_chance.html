@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>No Flood Risk</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="result-page success-page">
+
+    <div class="result-card">
+
+        <div class="result-icon">
+
+            ✅
+
+        </div>
+
+        <h1>No Flood Risk</h1>
+
+        <p>
+
+            Based on the provided environmental conditions,
+            the trained Machine Learning model predicts
+            <strong>no significant flood risk</strong>.
+
+        </p>
+
+        <div class="status success-status">
+
+            Safe Conditions
+
+        </div>
+
+        <div class="button-group">
+
+            <a href="/predict">
+
+                <button class="btn">
+
+                    🔄 Predict Again
+
+                </button>
+
+            </a>
+
+            <a href="/">
+
+                <button class="btn secondary-btn">
+
+                    🏠 Home
+
+                </button>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+
+</html>
